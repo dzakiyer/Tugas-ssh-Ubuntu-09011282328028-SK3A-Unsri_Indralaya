@@ -118,7 +118,6 @@ Jika berhasil, prompt akan berubah menjadi shell Ubuntu Server, menandakan bahwa
 
 ## Pengujian Perintah Dasar di Server
 Setelah terhubung, beberapa perintah dasar dapat dijalankan untuk memastikan akses penuh ke server:
--Tentu, berikut adalah README yang sudah diterjemahkan ke dalam Bahasa Indonesia:
 
 ## Perintah yang Digunakan
 
