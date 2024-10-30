@@ -1,5 +1,5 @@
 # Tugas SSH Ubuntu - SK3A Unsri Indralaya
-
+Mata Kuliah Sistem Operasi
 # Perkenalan Diri
 
 Nama saya **Dzakiy Erlang Hersiando**. Saya merupakan mahasiswa dengan NIM **09011282328028** dan saat ini tergabung dalam kelas **SK3A** di **Universitas Unsri Indralaya**.
