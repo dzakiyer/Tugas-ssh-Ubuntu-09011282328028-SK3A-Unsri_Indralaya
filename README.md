@@ -36,6 +36,22 @@ sudo apt install openssh-server
 ```
 Setelah instalasi, layanan SSH akan otomatis aktif.
 
+1. **Gambar 1**
+   ![Deskripsi Gambar 11](11.png)
+
+2. **Gambar 2**
+   ![Deskripsi Gambar 12](12.png)
+
+3. **Gambar 3**
+   ![Deskripsi Gambar 13](13.png)
+
+4. **Gambar 4**
+   ![Deskripsi Gambar 14](14.png)
+
+5. **Gambar 5**
+   ![Deskripsi Gambar 15](15.png)
+
+
 ### 2. Pengaturan Port SSH
 Setelah SSH berhasil diinstal, port default SSH (22) diubah menjadi 40 untuk alasan keamanan. Langkah-langkahnya adalah:
 1. Buka file konfigurasi SSH:
@@ -52,6 +68,13 @@ Setelah SSH berhasil diinstal, port default SSH (22) diubah menjadi 40 untuk ala
    sudo systemctl restart ssh
    ```
 
+2. **Gambar 1**
+   ![Deskripsi Gambar 16](16.png)
+
+1. **Gambar 2**
+   ![Deskripsi Gambar 17](17.png)
+
+
 ### 3. Pengaturan Firewall (UFW)
 Periksa status firewall pada server menggunakan perintah:
 ```bash
@@ -63,12 +86,25 @@ sudo ufw allow 40/tcp
 ```
 Namun, pada contoh ini, status firewall adalah **inactive**, jadi tidak perlu penyesuaian aturan.
 
+1. **Gambar 1**
+    ![Deskripsi Gambar 21](21.png)
+
+
 ### 4. Tes Koneksi dengan Ping
 Lakukan tes koneksi dari Ubuntu Desktop ke Ubuntu Server untuk memastikan kedua mesin terhubung:
 ```bash
 ping [IP Address Ubuntu Server]
 ```
 Hasil yang diharapkan adalah respon `64 bytes from [IP Address]`, yang menunjukkan koneksi berjalan dengan baik.
+
+1. **Gambar 1**
+   ![Deskripsi Gambar 18](18.png)
+   
+2. **Gambar 2**
+   ![Deskripsi Gambar 19](19.png)
+
+3. **Gambar 3**
+    ![Deskripsi Gambar 20](20.png)
 
 ### 5. Remote Login Menggunakan SSH
 Setelah memastikan koneksi jaringan, login ke Ubuntu Server dari Ubuntu Desktop menggunakan perintah:
@@ -77,14 +113,12 @@ ssh -p 40 [username]@[IP Address Ubuntu Server]
 ```
 Jika berhasil, prompt akan berubah menjadi shell Ubuntu Server, menandakan bahwa Anda sudah terhubung.
 
+1. **Gambar 1**
+    ![Deskripsi Gambar 23](23.png)
+
 ## Pengujian Perintah Dasar di Server
 Setelah terhubung, beberapa perintah dasar dapat dijalankan untuk memastikan akses penuh ke server:
 -Tentu, berikut adalah README yang sudah diterjemahkan ke dalam Bahasa Indonesia:
-
-```markdown
-# Pengujian Perintah Dasar pada Ubuntu Server
-
-README ini mendokumentasikan perintah-perintah dasar yang digunakan untuk menguji koneksi dan konfigurasi Ubuntu Server dari lingkungan Ubuntu Desktop.
 
 ## Perintah yang Digunakan
 
@@ -124,6 +158,19 @@ README ini mendokumentasikan perintah-perintah dasar yang digunakan untuk menguj
    ```
    Merestart server untuk memastikan konfigurasi telah dimuat dengan benar setelah perubahan.
 
+1. **Gambar 1**
+    ![Deskripsi Gambar 24](24.png)
+
+2. **Gambar 2**
+    ![Deskripsi Gambar 25](25.png)
+
+3. **Gambar 3**
+    ![Deskripsi Gambar 26](26.png)
+
+4. **Gambar 4**
+    ![Deskripsi Gambar 27](27.png)
+
+
 ## Tujuan
 
 Perintah di atas dieksekusi untuk:
@@ -137,50 +184,6 @@ Perintah di atas dieksekusi untuk:
 
 Pastikan Anda memiliki izin yang diperlukan untuk menjalankan perintah `sudo`. Gunakan perintah-perintah ini dengan hati-hati, terutama pada server yang sedang aktif.
 ```
-## Dokumentasi Langkah-Langkah Konfigurasi SSH
-
-1. **Gambar 11**
-   ![Deskripsi Gambar 11](11.png)
-
-2. **Gambar 12**
-   ![Deskripsi Gambar 12](12.png)
-
-3. **Gambar 13**
-   ![Deskripsi Gambar 13](13.png)
-
-4. **Gambar 14**
-   ![Deskripsi Gambar 14](14.png)
-
-5. **Gambar 15**
-   ![Deskripsi Gambar 15](15.png)
-
-6. **Gambar 16**
-   ![Deskripsi Gambar 16](16.png)
-
-7. **Gambar 17**
-   ![Deskripsi Gambar 17](17.png)
-
-8. **Gambar 18**
-   ![Deskripsi Gambar 18](18.png)
-
-9. **Gambar 19**
-   ![Deskripsi Gambar 19](19.png)
-
-10. **Gambar 20**
-    ![Deskripsi Gambar 20](20.png)
-
-11. **Gambar 21**
-    ![Deskripsi Gambar 21](21.png)
-
-12. **Gambar 22**
-    ![Deskripsi Gambar 22](22.png)
-
 
 ## Kesimpulan
 Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan mengendalikan Ubuntu Server melalui koneksi SSH dengan port yang telah diubah. Konfigurasi ini memungkinkan pengelolaan server secara remote dan aman.
-
-
-
-
-
-
