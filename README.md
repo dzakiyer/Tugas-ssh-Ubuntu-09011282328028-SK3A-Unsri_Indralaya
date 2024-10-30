@@ -133,15 +133,9 @@ Perintah di atas dieksekusi untuk:
 
 Pastikan Anda memiliki izin yang diperlukan untuk menjalankan perintah `sudo`. Gunakan perintah-perintah ini dengan hati-hati, terutama pada server yang sedang aktif.
 ```
-
-## Kesimpulan
-Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan mengendalikan Ubuntu Server melalui koneksi SSH dengan port yang telah diubah. Konfigurasi ini memungkinkan pengelolaan server secara remote dan aman.
-
----
-
 ## Dokumentasi Langkah-Langkah Konfigurasi SSH
 
-1. **Gambar 11**      
+1. **Gambar 11**
    ![Deskripsi Gambar 11](11.png)
 
 2. **Gambar 12**
@@ -177,20 +171,11 @@ Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan men
 12. **Gambar 22**
     ![Deskripsi Gambar 22](22.png)
 
-13. **Gambar 23**
-    ![Deskripsi Gambar 23](23.png)
 
-14. **Gambar 24**
-    ![Deskripsi Gambar 24](24.png)
+## Kesimpulan
+Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan mengendalikan Ubuntu Server melalui koneksi SSH dengan port yang telah diubah. Konfigurasi ini memungkinkan pengelolaan server secara remote dan aman.
 
-15. **Gambar 25**
-    ![Deskripsi Gambar 25](25.png)
 
-16. **Gambar 26**
-    ![Deskripsi Gambar 26](26.png)
-
-17. **Gambar 27**
-    ![Deskripsi Gambar 27](27.png)
 
 
 
