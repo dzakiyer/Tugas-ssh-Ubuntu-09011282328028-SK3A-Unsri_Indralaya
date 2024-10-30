@@ -97,4 +97,43 @@ Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan men
 
 ---
 
-Salin seluruh teks di atas ke dalam file `README.md` di repositori Anda di GitHub. Ini akan menjadikan laporan Anda terlihat rapi dan mudah diakses.
+## Dokumentasi Langkah-Langkah Konfigurasi SSH
+
+1. **Gambar 11**
+   ![Deskripsi Gambar 11](11.png)
+
+2. **Gambar 12**
+   ![Deskripsi Gambar 12](12.png)
+
+3. **Gambar 13**
+   ![Deskripsi Gambar 13](13.png)
+
+4. **Gambar 14**
+   ![Deskripsi Gambar 14](14.png)
+
+5. **Gambar 15**
+   ![Deskripsi Gambar 15](15.png)
+
+6. **Gambar 16**
+   ![Deskripsi Gambar 16](16.png)
+
+7. **Gambar 17**
+   ![Deskripsi Gambar 17](17.png)
+
+8. **Gambar 18**
+   ![Deskripsi Gambar 18](18.png)
+
+9. **Gambar 19**
+   ![Deskripsi Gambar 19](19.png)
+
+10. **Gambar 20**
+    ![Deskripsi Gambar 20](20.png)
+
+11. **Gambar 21**
+    ![Deskripsi Gambar 21](21.png)
+
+12. **Gambar 22**
+    ![Deskripsi Gambar 22](22.png)
+
+
+
