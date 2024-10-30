@@ -75,22 +75,64 @@ Jika berhasil, prompt akan berubah menjadi shell Ubuntu Server, menandakan bahwa
 
 ## Pengujian Perintah Dasar di Server
 Setelah terhubung, beberapa perintah dasar dapat dijalankan untuk memastikan akses penuh ke server:
-- **Memeriksa disk usage**:
-  ```bash
-  df -h
-  ```
-- **Memeriksa penggunaan memori**:
-  ```bash
-  free -h
-  ```
-- **Memeriksa alamat IP server**:
-  ```bash
-  ip a
-  ```
-- **Melakukan reboot pada server** (jika memiliki hak akses sudo):
-  ```bash
-  sudo reboot
-  ```
+-Tentu, berikut adalah README yang sudah diterjemahkan ke dalam Bahasa Indonesia:
+
+```markdown
+# Pengujian Perintah Dasar pada Ubuntu Server
+
+README ini mendokumentasikan perintah-perintah dasar yang digunakan untuk menguji koneksi dan konfigurasi Ubuntu Server dari lingkungan Ubuntu Desktop.
+
+## Perintah yang Digunakan
+
+1. **Ping Google**  
+   ```bash
+   ping google.com
+   ```
+   Perintah ini memeriksa konektivitas ke server Google untuk memastikan koneksi internet.
+
+2. **Menampilkan Direktori**  
+   ```bash
+   ls
+   ```
+   Menampilkan isi direktori saat ini untuk memverifikasi struktur file.
+
+3. **Menampilkan Direktori Kerja Saat Ini**  
+   ```bash
+   pwd
+   ```
+   Menunjukkan jalur lengkap dari direktori kerja saat ini.
+
+4. **Memeriksa Versi Ubuntu**  
+   ```bash
+   lsb_release -a
+   ```
+   Memberikan detail tentang versi Ubuntu yang berjalan di server.
+
+5. **Memantau Proses Sistem**  
+   ```bash
+   top
+   ```
+   Menampilkan informasi real-time tentang proses sistem, berguna untuk memantau kinerja server.
+
+6. **Restart Sistem**  
+   ```bash
+   sudo reboot
+   ```
+   Merestart server untuk memastikan konfigurasi telah dimuat dengan benar setelah perubahan.
+
+## Tujuan
+
+Perintah di atas dieksekusi untuk:
+- Memastikan konektivitas jaringan
+- Memeriksa organisasi sistem file
+- Memeriksa detail dan versi sistem
+- Memantau kinerja sistem
+- Menguji stabilitas server dengan restart
+
+## Catatan
+
+Pastikan Anda memiliki izin yang diperlukan untuk menjalankan perintah `sudo`. Gunakan perintah-perintah ini dengan hati-hati, terutama pada server yang sedang aktif.
+```
 
 ## Kesimpulan
 Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan mengendalikan Ubuntu Server melalui koneksi SSH dengan port yang telah diubah. Konfigurasi ini memungkinkan pengelolaan server secara remote dan aman.
@@ -99,7 +141,7 @@ Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan men
 
 ## Dokumentasi Langkah-Langkah Konfigurasi SSH
 
-1. **Gambar 11**
+1. **Gambar 11**      
    ![Deskripsi Gambar 11](11.png)
 
 2. **Gambar 12**
@@ -134,6 +176,22 @@ Dengan mengikuti langkah-langkah di atas, Ubuntu Desktop dapat terhubung dan men
 
 12. **Gambar 22**
     ![Deskripsi Gambar 22](22.png)
+
+13. **Gambar 23**
+    ![Deskripsi Gambar 23](23.png)
+
+14. **Gambar 24**
+    ![Deskripsi Gambar 24](24.png)
+
+15. **Gambar 25**
+    ![Deskripsi Gambar 25](25.png)
+
+16. **Gambar 26**
+    ![Deskripsi Gambar 26](26.png)
+
+17. **Gambar 27**
+    ![Deskripsi Gambar 27](27.png)
+
 
 
 
