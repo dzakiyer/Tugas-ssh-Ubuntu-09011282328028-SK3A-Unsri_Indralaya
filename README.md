@@ -1,5 +1,9 @@
 # Tugas SSH Ubuntu - SK3A Unsri Indralaya
 
+# Perkenalan Diri
+
+Nama saya **Dzakiy Erlang Hersiando**. Saya merupakan mahasiswa dengan NIM **09011282328028** dan saat ini tergabung dalam kelas **SK3A** di **Universitas Unsri Indralaya**.
+
 ## Deskripsi Tugas
 Tugas ini bertujuan untuk mengonfigurasi koneksi SSH antara Ubuntu Desktop dan Ubuntu Server. Langkah-langkah yang dilakukan termasuk instalasi SSH, pengaturan port, dan pengujian koneksi melalui VirtualBox.
 
